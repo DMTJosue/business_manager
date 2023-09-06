@@ -1,0 +1,77 @@
+body {
+    background-image: linear-gradient(to bottom, #008000, #FCD116);
+    color: #000;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+  
+h1, h2 {
+    text-align: center;
+}
+  
+#app {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff; /* Couleur blanche */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+.btn-inscrire {
+    background-color: #008000; /* Couleur verte du Sénégal */
+    color: #fff; /* Couleur blanche */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+  
+.btn-inscrire:hover {
+    background-color: #006400; /* Couleur verte foncée du Sénégal */
+    color: #fff; /* Couleur blanche */
+}
+  
+.btn-connecter {
+    background-color: #FCD116; /* Couleur jaune du Sénégal */
+    color: #008000; /* Couleur verte du Sénégal */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin-right: 0;
+    margin-top: 0;
+}
+  
+.btn-connecter:hover {
+    background-color: #FFD700; /* Couleur dorée du Sénégal */
+    color: #008000; /* Couleur verte du Sénégal */
+}
+a{
+    text-decoration: none;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+  
+label {
+    margin-bottom: 5px;
+}
+  

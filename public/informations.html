@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Informations supplémentaires</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Informations supplémentaires</h1>
+  <div id="app">
+    <form id="informations-form" method="POST" action="/informations">
+      <label for="communeActivite">Commune d'activité :</label>
+      <select id="communeActivite" name="communeActivite" required>
+        <option value="" disabled selected>Choisissez une commune</option>
+        <option value="Dakar">Dakar</option>
+        <option value="Thies">Thiès</option>
+        <option value="Kaolack">Kaolack</option>
+      </select>
+
+      <label for="formeJuridique">Forme juridique :</label>
+      <select id="formeJuridique" name="formeJuridique" required>
+        <option value="" disabled selected>Choisissez une forme juridique</option>
+        <option value="SARL">SARL</option>
+        <option value="SA">SA</option>
+        <option value="SAS">SAS</option>
+      </select>
+
+      <label for="bureauRepresentation">Bureau de représentation :</label>
+      <input type="text" id="bureauRepresentation" name="bureauRepresentation" placeholder="Bureau de représentation" required>
+
+      <label for="typeStatut">Type de statut :</label>
+      <select id="typeStatut" name="typeStatut" required>
+        <option value="" disabled selected>Choisissez un type de statut</option>
+        <option value="Statut APIEX- SARL Pluripersonnelle">Statut APIEX- SARL Pluripersonnelle</option>
+        <option value="Statut APIEX- SARL Unipersonnelle">Statut APIEX- SARL Unipersonnelle</option>
+        <option value="Statuts notariés">Statuts notariés</option>
+ 
+      </select>
+      <button type="submit" class="btn-inscrire">Enregistrer</button>
+    </form>
+  </div>
+</body>
+</html>

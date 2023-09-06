@@ -1,0 +1,1 @@
+const informationsUtilisateur = {"commune_activite":"Dakar","forme_juridique":"SARL","bureau_representation":"Zogbo","type_statut":"17","utilisateur_id":1};

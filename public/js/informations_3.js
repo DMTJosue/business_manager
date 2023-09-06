@@ -1,0 +1,1 @@
+const informationsUtilisateur = {"commune_activite":"Dakar","forme_juridique":"SARL","bureau_representation":"Zogbo","type_statut":"Statut APIEX- SARL Unipersonnelle","utilisateur_id":3};

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Connexion</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Connexion</h1>
+  <div id="app">
+    <h2>Entrez vos informations d'identification</h2>
+    <form id="login-form" method="POST" action="/connexion">
+      <input type="text" id="nomUtilisateur" name="nomUtilisateur" placeholder="Nom d'utilisateur" required>
+      <input type="password" id="motDePasse" name="motDePasse" placeholder="Mot de passe" required>
+      <button type="submit" class="btn-inscrire">Se connecter</button>
+    </form>
+  </div>
+</body>
+</html>

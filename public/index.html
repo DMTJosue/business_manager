@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestionnaire d'Entreprises</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Gestionnaire d'Entreprises</h1> 
+  <button type="submit"  class="btn-connecter"><a href="./connexion.html">Se connecter</a></button>
+  <div id="app">
+    <h2>Inscription</h2>
+    <form id="inscription-form" method="POST" action="/inscription">
+        <input type="text" id="prenom" name="prenom" placeholder="Prénom" required>
+        <input type="text" id="nom" name="nom" placeholder="Nom" required>
+        <input type="email" id="email" name="email" placeholder="E-mail" required>
+        <input type="text" id="nomUtilisateur" name="nomUtilisateur" placeholder="Nom d'utilisateur" required>
+        <input type="password" id="motDePasse" name="motDePasse" placeholder="Mot de passe" required>
+        <input type="password" id="motDePasseConfirmation" name="motDePasseConfirmation" placeholder="Confirmez le mot de passe" required>
+        <button type="submit"  class="btn-inscrire">S'inscrire</button>
+      </form>
+  </div>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>
